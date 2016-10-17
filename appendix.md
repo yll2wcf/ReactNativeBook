@@ -1,3 +1,10 @@
-# First Chapter
+# 附录
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+
+* [0.35翻译](035翻译.md)
+
+
+欢迎关注微信公众号: likeDev
+
+![](/assets/qrcode_for_gh_06a556f9a93a_430.jpg)
+
