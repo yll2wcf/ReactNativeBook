@@ -1,4 +1,6 @@
-这是一本React Native的书React Native不到两岁，兼容Android平台刚刚1年。我学习React Native其实也就不到1年，不算长，也不算短。
+这是一本React Native的书
+
+React Native不到两岁，兼容Android平台刚刚1年。我学习React Native其实也就不到1年，不算长，也不算短。
 
 > Paul Graham在文章中写过：大多数人真正注意到你的时候，不是第一眼看到你站在那里，而是发现了过了这么久你居然还在那里。
 

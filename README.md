@@ -7,7 +7,4 @@
 
 
 
-欢迎关注微信公众号: likeDev
-
-![](/assets/qrcode_for_gh_06a556f9a93a_430.jpg)
 
