@@ -67,4 +67,4 @@ const styles = StyleSheet.create({
 });
 ```
 
-注: RN中默认1个px单位 等于实际2px
+注: RN中默认1个px单位 等于实际图的2px
