@@ -10,4 +10,5 @@
   * [Android返回键的处理](xiang-mu-fen-xi/androidfan-hui-jian-de-chu-li.md)
   * [es6绑定this](xiang-mu-fen-xi/es6bang-ding-this.md)
   * 键盘遮挡
+  * [打包](xiang-mu-fen-xi/da-bao.md)
 
