@@ -1,0 +1,1 @@
+https://github.com/leecade/react-native-swiper

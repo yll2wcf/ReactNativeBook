@@ -15,4 +15,5 @@
   * [页面跳转](xiang-mu-fen-xi/ye-mian-tiao-zhuan.md)
   * [2x和3x的图](xiang-mu-fen-xi/tu-pian.md)
   * [flexBox布局的问题](xiang-mu-fen-xi/flexboxbu-ju-de-wen-ti.md)
+  * [轮播图](xiang-mu-fen-xi/lun-bo-tu.md)
 
