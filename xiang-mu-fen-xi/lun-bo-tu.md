@@ -26,3 +26,7 @@ react-native-kenburns-view
           resizeMode="cover"/>
                     }
 ```
+
+##图片缓存
+
+https://github.com/jayesbe/react-native-cacheable-image
