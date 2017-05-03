@@ -17,4 +17,5 @@
   * [flexBox布局的问题](xiang-mu-fen-xi/flexboxbu-ju-de-wen-ti.md)
   * [轮播图](xiang-mu-fen-xi/lun-bo-tu.md)
   * [滚动的条目](xiang-mu-fen-xi/gun-dong-de-tiao-mu.md)
+  * [TabBar 使用](xiang-mu-fen-xi/tabbar-shi-yong.md)
 
