@@ -13,4 +13,5 @@
   * [打包](xiang-mu-fen-xi/da-bao.md)
   * [列表FlatList](xiang-mu-fen-xi/lie-biao-flatlist.md)
   * [页面跳转](xiang-mu-fen-xi/ye-mian-tiao-zhuan.md)
+  * [TabBar 使用](xiang-mu-fen-xi/tabbar-shi-yong.md)
 
