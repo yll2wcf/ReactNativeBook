@@ -12,7 +12,7 @@
 
 此函数用于为给定的item生成一个不重复的key。Key的作用是使React能够区分同类元素的不同个体，以便在刷新时能够确定其变化的位置，减少重新渲染的开销。若不指定此函数，则默认抽取`item.key`作为key值。若`item.key`也不存在，则使用数组下标。
 
-```
+```jsx
 //Flatlist数据源为普通数组（没有datasource了），没有key报警告需要用keyExtractor函数，这里用index作key
 <FlatList
                             data={this.state.listdata}
