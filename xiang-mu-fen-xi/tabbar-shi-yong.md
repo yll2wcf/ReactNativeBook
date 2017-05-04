@@ -126,7 +126,7 @@ export default class MyPageNavigator extends Component {
 
 MyPage就是我们点击第三个标签后显示的页面，在MyPage里我们应对两种跳转方式需要获取不同的navigator，因为MyPage已经处于新的navigator下，这时调用this.props.navigator获取的是MyPageNavigator（class MyPageNavigator里这个），这样在PUSH后tabbar依然显示。如果不想要tabbar显示，我们需要获取我们在入口文件里定义的navigator（class Navigation里那个），所以需要暴露一个方法，我们在mainScene这个页面里有这样的代码：&lt;TabBar navigator={this.props.navigator} /&gt;，这个this.props.navigator就是我们需要的，所以在同一文件下export一个方法返回这个navigator就行了：
 
-```
+```jsx
 'use strict';
 
 import React, { Component } from 'react';
