@@ -171,7 +171,7 @@ const styles = StyleSheet.create({
 
 在MyPage里首先import { getNavigator } from './MainScene'，然后使用这个方法拿到navigator后再push，这样新页面就没有tabbar了。
 
-```
+```jsx
 getNavigator().push({
                     component: LoginPage
                 });
