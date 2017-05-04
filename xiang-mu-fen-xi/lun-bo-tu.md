@@ -11,7 +11,7 @@ react-native-kenburns-view
 
 ##处理android 加载显示默认图的问题
 
-```js
+```jsx
 {Platform.OS == 'android' ?
       <ResponsiveImage  /**保证本地图片和网络图片*/
              style={{flex:1}}

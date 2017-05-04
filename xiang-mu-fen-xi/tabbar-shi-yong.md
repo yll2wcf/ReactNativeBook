@@ -8,7 +8,7 @@ REACT-NATIVE-TAB-NAVIGATOR
 
 创建Tabbar控件：
 
-```
+```jsx
 render() {
         const {selectedColor} = this.props;
         const {tabName} = this.state;
@@ -56,7 +56,7 @@ render() {
 
 这里还需要传入navigator，在入口文件（如果tabbar页面处于打开应用的第一个页面的话）创建navigator如下：
 
-```
+```jsx
 export default class Navigation extends Component {
 
     render() {
