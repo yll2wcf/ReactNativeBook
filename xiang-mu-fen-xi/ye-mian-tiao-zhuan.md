@@ -6,6 +6,8 @@ https://js.coach/react-native/react-native-tab-navigator?search=react-native-tab
 
 https://reactnavigation.org/
 
+https://wix.github.io/react-native-navigation/#/installation-android
+
 ###scrollable-tab-view
 https://github.com/skv-headless/react-native-scrollable-tab-view
 
