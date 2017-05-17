@@ -8,6 +8,9 @@ https://reactnavigation.org/
 
 https://wix.github.io/react-native-navigation/#/installation-android
 
+
+http://www.jianshu.com/p/2f575cc35780
+
 ###scrollable-tab-view
 https://github.com/skv-headless/react-native-scrollable-tab-view
 
