@@ -17,8 +17,24 @@
 
 `ProgramDetailPage`需要在 `App.js` 中声明
 
-```
+```js
 const MyApp = StackNavigator{
-
+      ...
+      ProgramDetailPage: {
+        screen: ProgramDetailPage,
+        navigationOptions: {
+            gesturesEnabled:true,
+            header:null
+        }
+    }
 }
+```
+
+取数据
+```js
+    componentWillMount() {
+        const {params} = this.props.navigation.state;
+        var projectid =params.projectid;
+        console.log("projectid:"+projectid);
+    }
 ```
