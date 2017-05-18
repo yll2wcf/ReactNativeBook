@@ -38,3 +38,18 @@ const MyApp = StackNavigator{
         console.log("projectid:"+projectid);
     }
 ```
+
+
+Reset: Reset方法会清除原来的路由记录，添加上新设置的路由信息, 可以指定多个action，index是指定默认显示的那个路由页面, 注意不要越界了
+```js
+  import { NavigationActions } from 'react-navigation'
+
+  const resetAction = NavigationActions.reset({
+    index: 0,
+    actions: [
+      NavigationActions.navigate({ routeName: 'Profile'}),
+      NavigationActions.navigate({ routeName: 'Two'})
+    ]
+  })
+  this.props.navigation.dispatch(resetAction)
+```
