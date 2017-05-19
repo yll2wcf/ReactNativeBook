@@ -9,7 +9,7 @@ react-native bundle --platform android --dev false --entry-file index.android.js
 
 
 打包混淆失败需要加入
-```
+```py
 -keep class android.text {* ;}
 -dontwarn android.text.*
 
