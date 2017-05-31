@@ -2,11 +2,9 @@
 
 ### Tabbar
 
-https://js.coach/react-native/react-native-tab-navigator?search=react-native-tab-navigator
+[https://js.coach/react-native/react-native-tab-navigator?search=react-native-tab-navigator](https://js.coach/react-native/react-native-tab-navigator?search=react-native-tab-navigator)
 
-https://reactnavigation.org/
-
-
+[https://reactnavigation.org/](https://reactnavigation.org/)
 
 ### Navigator
 
@@ -36,13 +34,11 @@ for (var i = routes.length - 1; i >= 0; i--) {
 
 通过名字跳转
 
-http://stackoverflow.com/questions/33227181/poptoroute-not-working-when-i-pass-in-route-object
+[http://stackoverflow.com/questions/33227181/poptoroute-not-working-when-i-pass-in-route-object](http://stackoverflow.com/questions/33227181/poptoroute-not-working-when-i-pass-in-route-object)
 
 ### TextInput多行从顶行开始
 
 Style里设定
 
-textAlignVertical: 'top'
-
-
+textAlignVertical: 'top'  这个属性只在android里生效，ios默认就在顶行。
 
