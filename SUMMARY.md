@@ -25,4 +25,5 @@
   * [TextInput用法](xiang-mu-fen-xi/textinputyong-fa.md)
   * [格式化时间以及常用正则](xiang-mu-fen-xi/ge-shi-hua-shi-jian-yi-ji-chang-yong-zheng-ze.md)
   * [RCTDeviceEventEmitter](xiang-mu-fen-xi/rctdeviceeventemitter.md)
+  * [数据储存](xiang-mu-fen-xi/shu-ju-chu-cun.md)
 
