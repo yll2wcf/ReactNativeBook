@@ -26,7 +26,6 @@ var storage = new Storage({
 })
 
 global.storage = storage;   //全局变量
-
 ```
 
 储存：
@@ -66,6 +65,34 @@ storage.load({
                 logined: false
             });
         })
+```
+
+修改：
+
+```
+//暂时未提供update的方法，只能读出来再存
+storage.load({
+            key: 'loginState',
+        }).then(ret => {
+            ret.bindMail = mail;
+            storage.save({
+                key: 'loginState',  // 注意:请不要在key中使用_下划线符号!
+                rawData: ret
+            })
+        }).catch(err => {
+            //如果没有找到数据且没有sync方法，
+            //或者有其他异常，则在catch中返回
+            console.log(err);
+            Toast.show('获取个人信息失败，请重新登录', Toast.SHORT);
+        })
+```
+
+删除：
+
+```
+storage.remove({
+            key: 'loginState'
+        });
 ```
 
 
