@@ -18,4 +18,5 @@
   * [轮播图](xiang-mu-fen-xi/lun-bo-tu.md)
   * [滚动的条目](xiang-mu-fen-xi/gun-dong-de-tiao-mu.md)
   * [TabBar 使用](xiang-mu-fen-xi/tabbar-shi-yong.md)
+  * [TextInput用法](xiang-mu-fen-xi/textinputyong-fa.md)
 
