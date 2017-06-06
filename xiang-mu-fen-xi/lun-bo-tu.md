@@ -2,6 +2,9 @@
 
 https://github.com/leecade/react-native-swiper
 
+TabNavigator 导致一些冲突
+https://github.com/react-community/react-navigation/issues/1572
+
 
 ##封装了 Banner
 ```js
