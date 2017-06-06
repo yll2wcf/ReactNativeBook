@@ -59,7 +59,7 @@ Reset: Reset方法会清除原来的路由记录，添加上新设置的路由�
 
 自定义navigation的一些跳转方式
 
-```
+```js
 const defaultGetStateForAction = MyApp.router.getStateForAction;
 
 MyApp.router.getStateForAction = (passedAction, state) => {
