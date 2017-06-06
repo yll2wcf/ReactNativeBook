@@ -135,7 +135,7 @@ react native调用源生代码方法：
 
 这里的OpenDownloadModule代码为：
 
-```
+```java
 public class OpenDownloadModule extends ReactContextBaseJavaModule {
 
     private Context mContext;
