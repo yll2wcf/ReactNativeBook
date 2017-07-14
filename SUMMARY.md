@@ -28,6 +28,7 @@
   * [数据储存](xiang-mu-fen-xi/shu-ju-chu-cun.md)
   * [文件下载库react-native-fetch-blob](xiang-mu-fen-xi/wen-jian-xia-zai-ku-react-native-fetch-blob.md)
   * [自增长的TextInput](zi-zeng-chang-de-textinput.md)
+  * [图片选择器](xiang-mu-fen-xi/tu-pian-xuan-ze-qi.md)
 * [定制化项目](ding-zhi-hua-xiang-mu.md)
   * [TimerButton](ding-zhi-hua-xiang-mu/timerbutton.md)
 
