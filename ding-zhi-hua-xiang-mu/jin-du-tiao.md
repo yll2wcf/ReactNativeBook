@@ -4,6 +4,9 @@
 
 http://www.zhwios.cn/2016/07/28/reactnative-no-component-found-for-view-with-name-artsurfaceview/
 
+https://github.com/oblador/react-native-progress
+
+
 ```jsx
 import * as Progress from 'react-native-progress';
 
