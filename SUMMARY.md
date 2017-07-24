@@ -32,4 +32,5 @@
 * [定制化项目](ding-zhi-hua-xiang-mu.md)
   * [TimerButton](ding-zhi-hua-xiang-mu/timerbutton.md)
   * [进度条](ding-zhi-hua-xiang-mu/jin-du-tiao.md)
+* 引导图
 
