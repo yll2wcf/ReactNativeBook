@@ -31,6 +31,6 @@
   * [图片选择器](xiang-mu-fen-xi/tu-pian-xuan-ze-qi.md)
 * [定制化项目](ding-zhi-hua-xiang-mu.md)
   * [TimerButton](ding-zhi-hua-xiang-mu/timerbutton.md)
+  * [引导图](yin-dao-tu.md)
   * [进度条](ding-zhi-hua-xiang-mu/jin-du-tiao.md)
-* 引导图
 
