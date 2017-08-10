@@ -28,5 +28,5 @@ Hello, here is a very long text that needs scrolling.
 </TouchableWithoutFeedback>
 ```
 
-
+https://stackoverflow.com/questions/33060859/react-native-touchable-is-disabling-scrollview
 
