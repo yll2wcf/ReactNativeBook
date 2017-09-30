@@ -61,8 +61,6 @@ RCT_EXPORT_METHOD(RNOpenOneVC:(NSString *)msg){
         [[NSNotificationCenter defaultCenter] postNotificationName:@"RNOpenOneVC" object:nil];       
     });
 }
-
-
 ```
 
 2.在集成了RN界面的控制器TJDMeViewController中添加观察者接受通知，实现界面的跳转
@@ -83,5 +81,5 @@ var RNMoodules = NativeModules.RTModule;
  </TouchableOpacity>
 ```
 
-RN集成到原生应用中，RN和OC之间的相互通信传值Demo  
+
 
