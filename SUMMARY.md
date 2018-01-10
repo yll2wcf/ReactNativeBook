@@ -31,6 +31,7 @@
   * [图片选择器](xiang-mu-fen-xi/tu-pian-xuan-ze-qi.md)
   * [原生页面与RN页面间的跳转](xiang-mu-fen-xi/yuan-sheng-ye-mian-yu-rn-ye-mian-jian-de-tiao-zhuan.md)
   * [RN集成到现有原生应用中\(iOS\)](rnji-cheng-dao-xian-you-yuan-sheng-ying-yong-4e2d28-ios.md)
+  * [ImageBackground](xiang-mu-fen-xi/imagebackground.md)
 * [定制化项目](ding-zhi-hua-xiang-mu.md)
   * [TimerButton](ding-zhi-hua-xiang-mu/timerbutton.md)
   * [引导图](yin-dao-tu.md)
