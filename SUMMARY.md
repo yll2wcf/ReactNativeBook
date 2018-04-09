@@ -33,7 +33,6 @@
   * [RN集成到现有原生应用中\(iOS\)](rnji-cheng-dao-xian-you-yuan-sheng-ying-yong-4e2d28-ios.md)
   * [ImageBackground](xiang-mu-fen-xi/imagebackground.md)
   * [图片详情查看与缩放](xiang-mu-fen-xi/tu-pian-xiang-qing-cha-kan-yu-suo-fang.md)
-  * [react navigation 1.5.4新API](xiang-mu-fen-xi/react-navigation-154xin-api.md)
 * [定制化项目](ding-zhi-hua-xiang-mu.md)
   * [TimerButton](ding-zhi-hua-xiang-mu/timerbutton.md)
   * [引导图](yin-dao-tu.md)
