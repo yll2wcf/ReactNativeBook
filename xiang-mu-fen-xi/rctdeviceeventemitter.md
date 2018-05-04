@@ -21,7 +21,7 @@ componentWillUnmount() {
 }
 //回调方法，更新页面的操作放在这里，可以带参数
 _handleLoginState() {
-        
+
 }
 ```
 
@@ -33,6 +33,20 @@ _LogoutButtonCallback() {   //退出登录，调用回调函数更新MyPage
         RCTDeviceEventEmitter.emit('valueChange');    需要传参的话RCTDeviceEventEmitter.emit('valueChange', '需要传的参数');
         this._handleBack();  //退出的方法
     }
+```
+
+取消监听removeListener不能正确移除监听，正确写法：
+
+```js
+//组件加载后添加listener监听事件
+componentDidMount() {
+        this.listener = DeviceEventEmitter.addListener('valueChange', this._handleLoginState);
+}
+//组件即将卸载时删除监听事件
+componentWillUnmount() {
+        this.listener.remove();
+}
+
 ```
 
 

@@ -186,5 +186,5 @@ const styles = StyleSheet.create({
 });
 ```
 
-
+//此库有一些适配问题
 
