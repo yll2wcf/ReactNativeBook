@@ -26,7 +26,7 @@ class CustomNetworkModule implements OkHttpClientFactory {
 ```
 
 ##### Android解决方案如下：
-0.55.0版本一下可以参考文章：https://blog.csdn.net/vv_bug/article/details/77100113
+0.55.0版本以下可以参考文章：https://blog.csdn.net/vv_bug/article/details/77100113
 
 下面我们介绍针对0.55.0版本及以上配置，我们首先找到项目中的Application文件，然后在onCreate方法中设置一个自己的OkHttpClientProvider
 ```java
