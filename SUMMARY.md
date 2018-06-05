@@ -38,6 +38,7 @@
   * [https的问题](xiang-mu-fen-xi/httpsde-wen-ti.md)
   * [RN 0.55.2 版本BUG及暂时解决办法](xiang-mu-fen-xi/rn-0552-ban-ben-bug-ji-zan-shi-jie-jue-ban-fa.md)
   * [字符串转时间戳](xiang-mu-fen-xi/zi-fu-chuan-zhuan-shi-jian-chuo.md)
+  * [解决Toast短时间内多次弹出](xiang-mu-fen-xi/jie-jue-toast-duan-shi-jian-nei-duo-ci-dan-chu.md)
 * [定制化项目](ding-zhi-hua-xiang-mu.md)
   * [TimerButton](ding-zhi-hua-xiang-mu/timerbutton.md)
   * [引导图](yin-dao-tu.md)
