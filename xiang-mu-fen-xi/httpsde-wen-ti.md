@@ -1,34 +1,36 @@
 ## HTTPS 请求证书问题
+
 在react-native中默认是http请求方式，如果在我们项目中需要配置HTTPS请求，翻了翻源码我们可以看到其实react-native中的网络请求用的是OkHttp，react-native 0.55.0版本更新日志上可以看到,Android特性上添加自定义OkHttp客户端功能
-```
-Add back ability to customise OkHttp client
 
-Summary:
-Prior to 0a71f48, users could customise the OkHttp client used by React Native on Android by calling replaceOkHttpClient in OkHttpClientProvider.
+    Add back ability to customise OkHttp client
 
-This functionality has a variety of legitimate applications from changing connection timeouts or pool size to Stetho integration. The challenge is to add back support for replacing the client without causing a breaking change or reintroducing the problems olegbl sought to address in his original commit.
+    Summary:
+    Prior to 0a71f48, users could customise the OkHttp client used by React Native on Android by calling replaceOkHttpClient in OkHttpClientProvider.
 
-Introducing a client factory archives these aims, it adds a new, backwards compatible interface and is called each time a client is requested rather than re-using the same instance (unless you explicitly want this behaviour, in which case you could replicate it using a static class property inside your custom factory).
+    This functionality has a variety of legitimate applications from changing connection timeouts or pool size to Stetho integration. The challenge is to add back support for replacing the client without causing a breaking change or reintroducing the problems olegbl sought to address in his original commit.
 
-A number of PRs have been opened to add this functionality: #14675, #14068.
+    Introducing a client factory archives these aims, it adds a new, backwards compatible interface and is called each time a client is requested rather than re-using the same instance (unless you explicitly want this behaviour, in which case you could replicate it using a static class property inside your custom factory).
 
-I don't have a lot of Java experience so I'm open to better/more idiomatic ways to achieve this :)
+    A number of PRs have been opened to add this functionality: #14675, #14068.
 
-Create React Native application and set a custom factory in the constructor, e.g.  `OkHttpClientProvider.setOkHttpClientFactory(new CustomNetworkModule());`
+    I don't have a lot of Java experience so I'm open to better/more idiomatic ways to achieve this :)
 
-Where a custom factory would look like:
+    Create React Native application and set a custom factory in the constructor, e.g.  `OkHttpClientProvider.setOkHttpClientFactory(new CustomNetworkModule());`
 
-class CustomNetworkModule implements OkHttpClientFactory {
-    public OkHttpClient createNewNetworkModuleClient() {
-        return new OkHttpClient.Builder().build();
+    Where a custom factory would look like:
+
+    class CustomNetworkModule implements OkHttpClientFactory {
+        public OkHttpClient createNewNetworkModuleClient() {
+            return new OkHttpClient.Builder().build();
+        }
     }
-}
-```
 
 ##### Android解决方案如下：
-0.55.0版本以下可以参考文章：https://blog.csdn.net/vv_bug/article/details/77100113
+
+0.55.0版本以下可以参考文章：[https://blog.csdn.net/vv\_bug/article/details/77100113](https://blog.csdn.net/vv_bug/article/details/77100113)
 
 下面我们介绍针对0.55.0版本及以上配置，我们首先找到项目中的Application文件，然后在onCreate方法中设置一个自己的OkHttpClientProvider
+
 ```java
  @Override
     public void onCreate() {
@@ -53,6 +55,7 @@ public class CustomNetworkModule implements OkHttpClientFactory {
 ```
 
 我们这里自定义一个OkHttpClient,用这个替换react-native中默认的。
+
 ```java
 public class OkHttpUtils {
     private static OkHttpClient singleton;
@@ -97,7 +100,9 @@ public class OkHttpUtils {
     }
 }
 ```
-在HttpsUtils类封装了对证书的一些操作，这里根据需要我们信任了全部证书，如果需要真实证书可以在HttpsUtils.getSslSocketFactory(certificates,bksFile, password)中设置
+
+在HttpsUtils类封装了对证书的一些操作，这里根据需要我们信任了全部证书，如果需要真实证书可以在HttpsUtils.getSslSocketFactory\(certificates,bksFile, password\)中设置
+
 ```java
     //忽略全部证书
     builder.hostnameVerifier(new HostnameVerifier() {
@@ -111,6 +116,7 @@ public class OkHttpUtils {
 ```
 
 HttpsUtils类源码
+
 ```java
 public class HttpsUtils {
     public static class SSLParams {
@@ -310,3 +316,6 @@ public class HttpsUtils {
     }
 }
 ```
+
+
+
